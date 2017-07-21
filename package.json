@@ -1,0 +1,31 @@
+{
+  "name": "img-size-checker",
+  "version": "1.0.0",
+  "description": "images size checker use in pre-commit",
+  "main": "./bin/cleaner.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "bin": {
+    "img-size-checker": "./bin/checker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willworks/img-size-checker.git"
+  },
+  "keywords": [
+    "images",
+    "size",
+    "check",
+    "precommit"
+  ],
+  "author": "willworks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willworks/img-size-checker/issues"
+  },
+  "homepage": "https://github.com/willworks/img-size-checker#readme",
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
