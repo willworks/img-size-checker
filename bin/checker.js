@@ -10,8 +10,8 @@ const file = process.argv[4];
 if (!file) throw 'not such file!';
 fs.stat(file, (err, stats) => {
   if (err) throw err;
-  if (stats.size > maxsize) {
-    const msg = file + ' is over ' + maxsize + 'bit';
+  if (stats.size/1000 > maxsize) {
+    const msg = file + ' is over ' + maxsize + 'kb';
     throw msg;
   }
 });
