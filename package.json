@@ -1,8 +1,8 @@
 {
   "name": "img-size-checker",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "images size checker use in pre-commit",
-  "main": "./bin/cleaner.js",
+  "main": "./bin/checker.js",
   "scripts": {
     "test": "node ./test/test.js"
   },
@@ -24,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/willworks/img-size-checker/issues"
   },
-  "homepage": "https://github.com/willworks/img-size-checker#readme",
-  "dependencies": {
-    "commander": "^2.11.0"
-  }
+  "homepage": "https://github.com/willworks/img-size-checker#readme"
 }
