@@ -2,22 +2,25 @@
 A images size checker use in pre-commit, you can config the maxsize in you package.json to prevent someone commit unhandle images to git repository
 
 
-### 1. install
-```
+## Installation
+
+```js
 npm i -D img-size-checker
 ```
 
-### 2. use lint-staged
+## Lint-staged
 
-```
+```js
 "lint-staged": {
-  "*.{jpg,png}": "img-size-checker 300" // size in bit
+  "*.{jpg,png}": "img-size-checker 100" // size in kb
 }
 ```
 
-### 3. config precommit script in package.json
-```
+## Precommit
+```js
 "precommit": "lint-staged",
 ```
 
-### 4. enjoy it!
+## License
+
+  MIT
