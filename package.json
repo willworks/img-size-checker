@@ -1,6 +1,6 @@
 {
   "name": "img-size-checker",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "images size checker use in pre-commit",
   "main": "./bin/checker.js",
   "scripts": {
