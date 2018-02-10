@@ -5,7 +5,7 @@
 const fs = require("fs")
 
 const maxsize = process.argv[2] || 300;
-const file = process.argv[4];
+const file = process.argv[4] || process.argv[3];
 
 if (!file) throw 'not such file!';
 fs.stat(file, (err, stats) => {
